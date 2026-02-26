@@ -13,15 +13,15 @@
     </head>
     <body>
         <%
-    model.UserDTO user =
-        (model.UserDTO) session.getAttribute("LOGIN_USER");
+            model.UserDTO user
+                    = (model.UserDTO) session.getAttribute("LOGIN_USER");
 
-    if (user == null) {
-        response.sendRedirect("login.jsp");
-        return;
-    }
-%>
+            if (user == null) {
+                response.sendRedirect("login.jsp");
+                return;
+            }
+        %>
 
-<h2>Welcome <%= user.getFullName() %></h2>
+        <h2>Welcome <%= user.getFullName()%></h2>
     </body>
 </html>
