@@ -1,4 +1,4 @@
-package model;
+package dto;
 
 import java.util.Date;
 import javax.persistence.*;

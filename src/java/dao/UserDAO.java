@@ -1,5 +1,6 @@
-package model;
+package dao;
 
+import dto.UserDTO;
 import javax.persistence.EntityManager;
 import utils.JPAUtil;
 

@@ -4,8 +4,8 @@ import java.io.IOException;
 import javax.servlet.*;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
-import model.UserDAO;
-import model.UserDTO;
+import dao.UserDAO;
+import dto.UserDTO;
 
 @WebServlet(name = "MainController", urlPatterns = {"/MainController"})
 public class MainController extends HttpServlet {

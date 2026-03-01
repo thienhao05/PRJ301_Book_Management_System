@@ -4,9 +4,65 @@
         <servlet-name>MainController</servlet-name>
         <servlet-class>controller.MainController</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>AuthController</servlet-name>
+        <servlet-class>controller.AuthController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>BookController</servlet-name>
+        <servlet-class>controller.BookController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AdminBookController</servlet-name>
+        <servlet-class>controller.admin.AdminBookController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AdminDashboardController</servlet-name>
+        <servlet-class>controller.admin.AdminDashboardController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AdminUserController</servlet-name>
+        <servlet-class>controller.admin.AdminUserController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AdminOrderController</servlet-name>
+        <servlet-class>controller.admin.AdminOrderController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AdminCategoryController</servlet-name>
+        <servlet-class>controller.admin.AdminCategoryController</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>MainController</servlet-name>
         <url-pattern>/MainController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AuthController</servlet-name>
+        <url-pattern>/AuthController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>BookController</servlet-name>
+        <url-pattern>/BookController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AdminBookController</servlet-name>
+        <url-pattern>/AdminBookController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AdminDashboardController</servlet-name>
+        <url-pattern>/AdminDashboardController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AdminUserController</servlet-name>
+        <url-pattern>/AdminUserController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AdminOrderController</servlet-name>
+        <url-pattern>/AdminOrderController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AdminCategoryController</servlet-name>
+        <url-pattern>/AdminCategoryController</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
